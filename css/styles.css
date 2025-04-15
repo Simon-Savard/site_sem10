@@ -26,7 +26,7 @@ header{
 header .wrapper{
     display: flex;
     justify-content: space-between;
-    padding: 15px 100px;
+    padding: 15px 0;
     height: 70px;
 }
 
@@ -47,7 +47,9 @@ section.hero .wrapper{
     justify-content: flex-end;
 }
 
-
+.produits{
+    background-color: #ECF0F1;
+}
 
 /*===========================================================================
 ELEMENTS
@@ -99,6 +101,61 @@ h1{
     margin: 0;
     padding: 30px 0px;
 }
+
+h2{
+    font: bold 3.6em "Josefin Sans", sans-serif;
+    color: #474747;
+    margin: 0;
+    padding-top: 80px;
+}
+
+h3{
+    margin: 0;
+}
+
+.produits p{
+    font: 1.8em "Roboto", sans-serif;
+    color: #474747;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 35px;
+    padding-bottom: 80px;
+}
+
+.article{
+    background-color: white;
+    padding: 30px;
+}
+
+.article p{
+    color: black;
+    font: 1.8em "Roboto", sans-serif;
+    margin: 0;
+    padding-bottom: 65px;
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #E25254;
+    font: bold 2.2em "Josefin Sans", sans-serif;
+    padding-bottom: 40px;
+}
+
+.article:hover{
+    background-color: #E25254;
+    color: white;
+}
+
+
+
 
 .btn-portfolio{
     background-color: #C0392B;
